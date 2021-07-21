@@ -7,5 +7,10 @@
     color: #fff;
     text-align: center;
     display: flex;
+    flex-direction: column;
+}
+.cards{
+    /* width: 100%; */
+    display: flex;
     flex-wrap: wrap;
 }
