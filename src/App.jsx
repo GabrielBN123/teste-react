@@ -11,6 +11,7 @@ import Pai from './components/comunication/direta/Pai'
 import Super from './components/comunication/indireta/Super'
 import Input from './components/form/Input'
 import Contador from './components/contador/Contador'
+import MegaSena from './components/megaSena/MegaSena'
 
 
 
@@ -18,6 +19,9 @@ export default (props) =>
     <div className="app">
         <h1 style={{ textAlign: 'center' }}> Fundamentos React </h1>
         <div className="cards">
+            <Card title="Contador " bgColor="#69D2E7" txtColor="" txtAlign="center" bColor="#69D2E7">
+                <MegaSena></MegaSena>
+            </Card>
             <Card title="Contador " bgColor="#69D2E7" txtColor="" txtAlign="center" bColor="#69D2E7">
                 <Contador passo={10}></Contador>
             </Card>
